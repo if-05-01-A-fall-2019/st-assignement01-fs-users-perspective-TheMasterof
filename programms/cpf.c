@@ -1,3 +1,4 @@
+//PLAKOLB Marcel
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -20,7 +21,7 @@ int main(int argc, char const *argv[])
 
     char buffer[256];
     int newLen = read(fd, buffer, 256);
-    
+
     if(newLen < 0) {
         printf("ERROR!\nCouldn't read from file");
         return 0;
